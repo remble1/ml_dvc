@@ -3,7 +3,7 @@ on: [push]
 permissions:
   issues: write
   pull-requests: write
-
+  actions: write
 jobs:
   run:
     runs-on: [ubuntu-latest]
